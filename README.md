@@ -7,9 +7,8 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 To install all modules.
-* npm install or yarn
   ```sh
-  npm install npm@latest -g
+  npm install or yarn
   ```
 
 ### Installation
