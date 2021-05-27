@@ -5,26 +5,26 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-To install all modules.
+To install all modules
   ```sh
   npm install or yarn
   ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Create a postgres database locally
+2. Replace DATABASE_URL in the file .env
+3. Migrate your database with Prisma
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   npx prisma migrate dev
    ```
-3. Install NPM packages
+   
+### Run the server
+
    ```sh
-   npm install
+   npm start
    ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+
 
 
 
