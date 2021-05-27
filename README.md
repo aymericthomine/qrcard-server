@@ -5,7 +5,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-To install all modules
+Install all modules
   ```sh
   npm install or yarn
   ```
@@ -15,22 +15,24 @@ To install all modules
 1. Create a postgres database locally
 2. Replace DATABASE_URL in the file .env
 3. Migrate your database with Prisma
-   ```sh
-   npx prisma migrate dev
-   ```
+```sh
+npx prisma migrate dev
+```
    
 ### Run the server
 
-   ```sh
-   npm start
-   ```
+```sh
+npm start
+```
 
+### Commands
 
+1. Add a new user in the database
+```sh
+curl -X POST -H "Content-Type: application/json" -d '{"name":"Pizzalyon", "adress": "Lyon", "category":"pizza"}' http://localhost:3000/user```
+```
+2. Run Prisma Studio
+```sh
+npx prisma studio
+```
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
