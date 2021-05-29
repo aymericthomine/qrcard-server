@@ -15,7 +15,7 @@ Install all modules
 2. Replace DATABASE_URL in the file .env
 3. Migrate your database with Prisma
 ```sh
-npx prisma migrate dev
+npx prisma db push
 ```
    
 ### Run the server
