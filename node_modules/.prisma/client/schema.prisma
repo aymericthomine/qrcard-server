@@ -14,8 +14,8 @@ model User {
   name String?
   adress  String?
   category String?
-  lat Int?
-  long Int?
+  lat String?
+  long String?
   card String?
 }
 
