@@ -4,6 +4,8 @@ CREATE TABLE "User" (
     "name" TEXT,
     "adress" TEXT,
     "category" TEXT,
+    "latitude" TEXT,
+    "longitude" TEXT,
     "card" TEXT,
 
     PRIMARY KEY ("id")
