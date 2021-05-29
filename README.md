@@ -15,6 +15,10 @@ Install all modules
 2. Replace DATABASE_URL in the file .env
 3. Migrate your database with Prisma
 ```sh
+npx prisma migrate dev
+```
+4. Push db to Heroku
+```sh
 npx prisma db push
 ```
    
