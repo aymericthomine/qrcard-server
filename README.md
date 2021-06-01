@@ -39,3 +39,10 @@ curl -X POST -H "Content-Type: application/json" -d '{"name":"Pizzalyon", "adres
 npx prisma studio
 ```
 
+## Routes utilisation
+
+|Method	|Route	|Description|
+|-------|------|-----------|
+|GET	| /users | this should respond with a list of all cards.|
+|GET	| /users/:id	| this route should display a single card's found on the database.|
+|POST	| /user | this route should add a new card on the database.|
