@@ -41,6 +41,8 @@ npx prisma studio
 
 ## Routes utilisation
 
+URL : https://qrcard-server.herokuapp.com/
+
 |Method	|Route	|Description|
 |-------|------|-----------|
 |GET	| /users | this should respond with a list of all cards.|
